@@ -1,0 +1,67 @@
+/* Header Styling */
+.nav-header {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+  padding: 16px 32px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #222;
+  margin: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .logo-heading {
+    font-size: 20px;
+  }
+}
+
+.my-orders-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #585555;
+  margin-right: 12px;
+  white-space: nowrap;
+}
+
+.cart-icon-container {
+  position: relative;
+}
+
+.cart-icon {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.cart-icon:hover {
+  transform: scale(1.1);
+}
+
+.cart-count-badge {
+  position: absolute;
+  top: -10px;
+  right: -8px;
+  background-color: #ff6347;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-count {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+}

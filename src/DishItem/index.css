@@ -1,0 +1,129 @@
+.dish-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.3s ease;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.dish-item-container:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.dish-info-section {
+  display: flex;
+  flex: 1;
+  gap: 16px;
+}
+
+.veg-border {
+  border: 1px solid #00923f;
+  border-radius: 4px;
+  padding: 2px;
+  height: fit-content;
+}
+
+.non-veg-border {
+  border-color: #92282a;
+}
+
+.veg-round {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #00923f;
+}
+
+.non-veg-round {
+  background-color: #92282a;
+}
+
+.dish-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.dish-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.dish-currency-price {
+  font-size: 16px;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.dish-description {
+  color: #7c7c7c;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.controller-container {
+  display: flex;
+  align-items: center;
+  background-color: #28a745;
+  border-radius: 50px;
+  padding: 6px 12px;
+  width: fit-content;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.quantity {
+  margin: 0 10px;
+  color: white;
+  font-size: 16px;
+}
+
+.not-availability-text {
+  color: #dc3545;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.addon-availability-text {
+  color: #734ff4;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.dish-image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  min-width: 150px;
+  text-align: right;
+}
+
+.dish-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.dish-calories {
+  color: #f57c00;
+  font-size: 14px;
+  font-weight: 600;
+}

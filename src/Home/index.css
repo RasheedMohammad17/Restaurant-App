@@ -1,0 +1,80 @@
+/* Spinner Centering */
+.spinner-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Home background */
+.home-background {
+  padding: 20px 40px;
+  background-color: #fafafa;
+}
+
+@media screen and (max-width: 768px) {
+  .home-background {
+    padding: 16px 20px;
+  }
+}
+
+/* Tab Menu Styling */
+.tab-container {
+  display: flex;
+  overflow-x: auto;
+  border-bottom: 1px solid #eee;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  scrollbar-width: none;
+}
+
+.tab-container::-webkit-scrollbar {
+  display: none;
+}
+
+.each-tab-item {
+  list-style-type: none;
+  flex-shrink: 0;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #444;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+}
+
+.each-tab-item:hover {
+  color: #ff6347;
+  background-color: #fef2f0;
+  border-radius: 8px 8px 0 0;
+}
+
+.active-tab-item {
+  font-weight: 600;
+  color: #ff6347;
+  border-bottom: 2px solid #ff6347;
+}
+
+/* Button inside tab (reset styling) */
+.tab-category-button {
+  background-color: transparent;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: inherit;
+  color: inherit;
+  font-weight: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Dishes list layout */
+.dishes-list-container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
